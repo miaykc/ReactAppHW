@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Azeret+Mono&display=swap');
+
+.title {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-family: cursive;
+  color: darkslateblue;
+}
+
+.content {
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+
+.card {
+  padding: 10px;
+  margin: 20px;
+  border: 1mm ridge rgb(50 98 220 / 60%);
+  display: flex;
+  justify-content: center;
+}
+
+.vocabulary {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+}
+
+.word {
+  padding-right: 5px;
+}
+.definition {
+  margin-top: 23px;
+}
+
+.example-button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:active {
+  background-color: cornflowerblue;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.icon-button {
+  border: 0;
+  padding: 0;
+  background: white;
+}
+
+.fa-star {
+  color: darkgray;
+  padding: 5px;
+}
+
+.intro{
+  height: 300px;
+  color: black;
+  float: right;
+  width: 100%;
+  font-size: 20px
+}
+
+.photo{
+  float: left;
+  Size: '100px';
+  height: '810px';
+  width:'80%';
+}
+
+.app-header{
+  text-align: center;
+  padding: 30px;
+}
+
+.header{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 30px;
+}
+
+.app-body{
+  padding:80px;
+}
